@@ -11,7 +11,7 @@ This is a simple C++ program that finds the shortest path through a maze using B
 
         ' ' (space) = open path
 
-    The program reads in the maze and figures out the shortest path from S to G using a BFS traversal.
+    The program reads in the maze of any size and figures out the shortest path from S to G using a BFS traversal.
 
     Once the path is found, it backtracks from the goal to the start and marks the path using '*' on the maze.
 
