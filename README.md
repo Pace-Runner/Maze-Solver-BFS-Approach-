@@ -32,19 +32,19 @@ Each move keeps track of:
     Where it came from (parent array)
 
 Example input with a 5x5 matrix:
-5 5
-xxxxx
-xS  x
-x x x
-x  Gx
-xxxxx
+5 5  
+xxxxx  
+xS  x  
+x x x  
+x  Gx  
+xxxxx  
 
 Example of output with a 5x5 matrix:
-xxxxx
-xS  x
-x*x x
-x**Gx
-xxxxx
+xxxxx  
+xS  x  
+x*x x  
+x**Gx  
+xxxxx  
 
 How to run with bash:
 g++ -o maze_solver maze_solver.cpp
